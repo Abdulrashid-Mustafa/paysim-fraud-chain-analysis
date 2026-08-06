@@ -108,6 +108,8 @@ Of 4,308 matched chains, **4,272 (99.2%) completed the cash out in the same hour
 
 The operational consequence is direct. Any control that depends on a human working a review queue arrives after the money is gone. Interception has to be automated and inline.
 
+![99.2% of stolen funds exit within the same hour they arrive](figures/02_hours_to_cashout.png)
+
 ### Q3. Behaviour versus size, and what it costs
 
 **Amount carries real but narrow signal.** Fraudulent transfers average $1.48M against $906k for legitimate transfers, and the overlap is heavy across most of the range. Only one band separates cleanly:
@@ -134,6 +136,8 @@ The sharper version of the signal is the ratio, not the flag. For fraudulent tra
 | D. Draining AND high value | 65,466 | 2,548 | 3.89% | 31.02% | 25.7 |
 
 No single rule tested here is production ready. Rule A almost never fires. Rule B would bury a fraud team under 1.19 million alerts. Combining conditions improves precision roughly sixfold over rule B and cuts alert volume by 94%, at the cost of two thirds of the recall.
+
+![Precision and alert volume for each candidate rule](figures/06_rule_tradeoff.png)
 
 That trade off is the actual finding. A recommendation that reports recall without reporting alert volume is not a recommendation, it is a demo.
 
@@ -205,8 +209,7 @@ paysim-fraud-chain-analysis/
 ├── R/           01 time series, 02 visuals
 ├── data/        aggregated exports only, no raw data
 ├── figures/     300 dpi output
-├── tableau/     dashboard link and screenshot
-└── docs/        query result screenshots
+└── tableau/     dashboard link and screenshot
 ```
 
 ---
