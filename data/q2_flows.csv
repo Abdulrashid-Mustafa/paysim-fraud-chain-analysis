@@ -1,0 +1,3 @@
+source_channel,target_channel,leg_order,transaction_count,volume
+Victim account,Mule account,1,4097,6067213184.01
+Mule account,Cash-out exit,2,4116,5989202243.83

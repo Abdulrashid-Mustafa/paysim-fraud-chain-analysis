@@ -1,0 +1,5 @@
+rule_name,alerts,true_positives,false_positives,precision_pct,recall_pct,alerts_per_catch
+A. Fixed threshold (current control),16,16,0,100.0,0.19,1.0
+B. Account draining only,1188074,8012,1180062,0.674,97.55,148.3
+C. High value only (>= 1M),130507,2706,127801,2.073,32.95,48.2
+D. Draining AND high value,65466,2548,62918,3.892,31.02,25.7
