@@ -1,0 +1,14 @@
+# Raw data: never commit the full PaySim file
+*.csv
+!data/*.csv
+PS_*.csv
+
+# RStudio and R session state
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# OS files
+.DS_Store
+Thumbs.db
