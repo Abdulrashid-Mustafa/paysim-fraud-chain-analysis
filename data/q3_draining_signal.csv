@@ -1,3 +1,3 @@
-isFraud,total_transactions,fully_drained_count,fully_drained_pct,avg_drained_ratio
-1,8213,8012,97.55,0.9988
-0,2762196,1180062,42.72,277.3737
+isFraud,total_transactions,fully_drained_count,fully_drained_pct
+1,8213,8012,97.55
+0,2762196,1180062,42.72

@@ -1,0 +1,2 @@
+transfer_value,cashout_value,cashout_to_transfer_value_pct,fraud_transfers,fraud_cashouts,total_fraud_legs,flagged_by_system,overall_recall_pct,transfer_recall_pct
+6067213184.01,5989202243.83,98.7,4097,4116,8213,16,0.19,0.39

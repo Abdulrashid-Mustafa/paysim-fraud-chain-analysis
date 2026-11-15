@@ -1,6 +1,6 @@
-amount_band,txns,fraud_txns,fraud_rate_pct,lift_vs_baseline
-a. under 1K,7801,58,0.743,2.51
-b. 1K to 10K,71040,220,0.31,1.04
-c. 10K to 100K,757271,1429,0.189,0.64
-d. 100K to 1M,1803790,3800,0.211,0.71
-e. over 1M,130507,2706,2.073,6.99
+amount_band,txns,fraud_txns,fraud_rate_pct,baseline_rate_pct,lift_vs_baseline
+a. under 1K,7801,58,0.743,0.296,2.51
+b. 1K to 10K,71040,220,0.31,0.296,1.04
+c. 10K to 100K,757271,1429,0.189,0.296,0.64
+d. 100K to 1M,1803790,3800,0.211,0.296,0.71
+e. 1M and over,130507,2706,2.073,0.296,6.99

@@ -1,0 +1,4 @@
+outcome,hours_to_cashout,transfers,transfer_value,share_of_transfers_pct
+a. Cashed out in the same hour,0,4075,5983699208.41,99.46
+b. Stopped by existing control,,16,77785563.69,0.39
+c. No matching cash out,,6,5728411.91,0.15
