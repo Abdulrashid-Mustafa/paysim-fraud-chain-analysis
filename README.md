@@ -200,7 +200,7 @@ The practical value is in how rules behave by hour. The same amount rule (C) rea
 
 **2. Keep the existing flag as a hard block, and find out why it fires.** Every time it fired, it stopped real fraud and the money never left. Its documented logic does not match its behaviour (16 flags against 409,110 transfers above 200,000), so the first step is to establish its real trigger before relying on it or widening it.
 
-**3. Make automated thresholds hour aware.** The same amount rule is about 38 times more precise overnight (56.18% against 1.48%). A threshold that would drown a team in daytime alerts can run tighter at night at a fraction of the cost.
+**3. Make automated thresholds hour aware.** The same amount rule reaches 56.18% precision overnight against 1.48% in the daytime. A threshold that would drown a team in daytime alerts can run tighter at night at a fraction of the cost.
 
 **4. Run a leakage check before trusting any rule.** Rules B, D and F look useful only because of how the simulator writes balances. Any rule that scores close to perfect on synthetic data should be tested against the data's own documentation before it is presented as a finding.
 
