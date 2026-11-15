@@ -1,0 +1,5 @@
+type,isFraud,total_transactions,amount_equals_balance_pct,dest_zero_pct,drained_pct,drained_rows,drained_amount_above_balance
+CASH_OUT,1,4116,99.0,0.19,99.08,4078,3
+CASH_OUT,0,2233384,0.0,0.07,42.78,955334,955334
+TRANSFER,1,4097,96.24,99.29,96.02,3934,1
+TRANSFER,0,528812,0.0,0.02,42.5,224728,224728

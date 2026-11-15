@@ -1,0 +1,3 @@
+hour_band,txns,fraud_txns,rule_c_alerts,rule_c_true_positives,rule_c_precision_pct
+a. 00:00 to 06:59,13297,2382,1408,791,56.18
+b. 07:00 to 23:59,2757112,5831,129099,1915,1.48

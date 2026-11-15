@@ -1,5 +1,7 @@
-rule_name,alerts,true_positives,false_positives,precision_pct,recall_pct,alerts_per_catch
-A. Fixed threshold (current control),16,16,0,100.0,0.19,1.0
-B. Account draining only,1188074,8012,1180062,0.674,97.55,148.3
-C. High value only (>= 1M),130507,2706,127801,2.073,32.95,48.2
-D. Draining AND high value,65466,2548,62918,3.892,31.02,25.7
+rule_name,uses_balance_columns,fraud_in_scope,alerts,true_positives,false_positives,precision_pct,recall_pct,alerts_per_catch
+A. Fixed threshold (current control),no,8213,16,16,0,100.0,0.19,1.0
+B. Account draining only,yes,8213,1188074,8012,1180062,0.67,97.55,148.3
+C. High value only (1M and over),no,8213,130507,2706,127801,2.07,32.95,48.2
+D. Draining AND high value,yes,8213,65466,2548,62918,3.89,31.02,25.7
+E. Cash out mirrors a transfer in the same hour,no,4116,4141,4075,66,98.41,99.0,1.0
+F. Amount equals origin balance (leakage check),yes,8213,8018,8018,0,100.0,97.63,1.0

@@ -1,0 +1,2 @@
+transfers_over_200k,fraud_transfers_over_200k,flagged_transfers,flagged_that_are_fraud,flagged_with_origin_balance_unchanged,fraud_cashouts_of_zero,min_flagged_amount,max_flagged_amount
+409110,2740,16,16,16,16,353874.22,10000000
